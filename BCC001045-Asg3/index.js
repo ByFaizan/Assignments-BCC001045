@@ -1,6 +1,6 @@
 // 1. checking the first letter 
 var charak = prompt("Enter:\n1. A Number\nOr\n2. Uppercase/Lowercase Letter");
-var checkCharak = charak.charCodeAt(0)
+var checkCharak = charak.charCodeAt(0);
 
 if (checkCharak >= 48 && checkCharak <= 57) {
     alert("You've Entered A NUMBER");
